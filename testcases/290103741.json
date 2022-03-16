@@ -13,5 +13,8 @@
     "url": "https://google.com",
     "method": "GET"
   },
-  "resultVariable": "tcResult"
+  "resultVariable": "tcResult",
+  "details": {
+    "summary": "Test 1"
+  }
 }
