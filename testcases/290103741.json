@@ -1,0 +1,17 @@
+{
+  "validation": {
+    "assertions": [
+      {
+        "source": "statusCode",
+        "property": null,
+        "operator": "equalToNumber",
+        "expectedValue": "201"
+      }
+    ]
+  },
+  "request": {
+    "url": "https://google.com",
+    "method": "GET"
+  },
+  "resultVariable": "tcResult"
+}

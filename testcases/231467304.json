@@ -1,0 +1,19 @@
+{
+  "validation": {
+    "assertions": [
+      {
+        "source": "statusCode",
+        "property": null,
+        "operator": "equalToNumber",
+        "expectedValue": "200"
+      }
+    ]
+  },
+  "request": {
+    "url": "https://yahoo.com",
+    "method": "GET"
+  },
+  "details": {
+    "condition": "{{tcResult.isPassed}}"
+  }
+}
